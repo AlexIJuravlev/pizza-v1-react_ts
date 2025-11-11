@@ -1,26 +1,28 @@
+import { useState } from 'react';
+
 interface PizzaContent {
-    photo: string,
-    name: string,
-    price: number
+	photo: string;
+	name: string;
+	price: number;
+	ply: string[];
 }
 
+export const Content = ({ photo, name, price, ply }: PizzaContent) => {
+	const [pizzaCount, setPizzaCount] = useState(0);
 
-export const Content = ({photo, name, price} : PizzaContent) => {
+	const addPizza = () => {
+		setPizzaCount(pizzaCount + 1);
+	};
 
-	
 	return (
 		<div className='pizza-block'>
-			<img
-				className='pizza-block__image'
-				src={photo}
-				alt={name}
-			/>
-			<h4 className='pizza-block__title'>Pizza</h4>
+			<img className='pizza-block__image' src={photo} alt={name} />
+			<h4 className='pizza-block__title'>{name}</h4>
 			<div className='pizza-block__selector'>
 				<ul>
-					{}
-					<li className='active'>тонкое</li>
-					<li>традиционное</li>
+					{ply.map((i) => (
+						<li>{i}</li>
+					))}
 				</ul>
 				<ul>
 					<li className='active'>26 см.</li>
@@ -30,7 +32,7 @@ export const Content = ({photo, name, price} : PizzaContent) => {
 			</div>
 			<div className='pizza-block__bottom'>
 				<div className='pizza-block__price'>от {price} ₽</div>
-				<div className='button button--outline button--add'>
+				<button onClick={addPizza} className='button button--outline button--add'>
 					<svg
 						width='12'
 						height='12'
@@ -44,8 +46,8 @@ export const Content = ({photo, name, price} : PizzaContent) => {
 						/>
 					</svg>
 					<span>Добавить</span>
-					<i>2</i>
-				</div>
+					<i>{pizzaCount}</i>
+				</button>
 			</div>
 		</div>
 	);

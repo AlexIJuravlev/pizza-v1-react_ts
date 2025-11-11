@@ -1,19 +1,17 @@
 import { useEffect, useState } from 'react';
-import { Categories, Content, Header, Sort } from './components';
+import { Categories, Header, Sort, PizzaAll  } from './components';
 import './scss/app.scss';
 
 interface Pizza {
-	id: number,
-	name: string,
-	photo: string,
-	param: any[],
-	minPrice?: number
+	id: number;
+	name: string;
+	photo: string;
+	param: any[];
+	minPrice?: number;
+	ply: string[]
 }
 
-interface PizzaOption {
-	size: string,
-	price: string
-}
+
 
 function App() {
 	const [data, setData] = useState<Pizza[]>([]);
@@ -25,7 +23,6 @@ function App() {
 			.then((res) => res.json())
 			.then((res) => setData(res));
 	}, []);
-
 
 	return (
 		<div className='App'>
@@ -39,13 +36,7 @@ function App() {
 						</div>
 						<h2 className='content__title'>Все пиццы</h2>
 						<div className='content__items'>
-							{data.map(({id, photo, name, param})=>{
-								const price = param.flatMap(p => p.option.map((o : PizzaOption) => parseInt(o.price)))
-								const minPrice = Math.min(...price)
-								console.log(minPrice);
-								
-								return <Content key={id} photo={photo} name={name} price={minPrice}  />
-							})}
+							<PizzaAll arr={data}/>
 						</div>
 					</div>
 				</div>
