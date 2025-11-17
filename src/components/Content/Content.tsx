@@ -1,14 +1,22 @@
 import { useState } from 'react';
 
+interface ParamPizza {
+	ply: string;
+	option: Array<{
+		size: string;
+		price: number;
+	}>;
+}
 interface PizzaContent {
 	photo: string;
 	name: string;
 	price: number;
-	ply: string[];
+	param: ParamPizza[];
 }
 
-export const Content = ({ photo, name, price, ply }: PizzaContent) => {
+export const Content = ({ photo, name, price, param }: PizzaContent) => {
 	const [pizzaCount, setPizzaCount] = useState(0);
+	console.log(param);
 
 	const addPizza = () => {
 		setPizzaCount(pizzaCount + 1);
@@ -18,18 +26,27 @@ export const Content = ({ photo, name, price, ply }: PizzaContent) => {
 		<div className='pizza-block'>
 			<img className='pizza-block__image' src={photo} alt={name} />
 			<h4 className='pizza-block__title'>{name}</h4>
-			<div className='pizza-block__selector'>
-				<ul>
-					{ply.map((i) => (
-						<li>{i}</li>
-					))}
-				</ul>
-				<ul>
-					<li className='active'>26 см.</li>
-					<li>30 см.</li>
-					<li>40 см.</li>
-				</ul>
-			</div>
+			{param.map(({ ply, option }: ParamPizza, ) => (
+				<div className='pizza-block__selector'>
+					<ul>
+						<li
+							onClick={() => {
+								console.log('click', { ply });
+							}}
+						>
+							{ply}
+						</li>
+					</ul>
+
+							{option.map(({size}) => (
+								<ul>
+									<li>{size}</li>
+								</ul>
+							))}
+
+				</div>
+			))}
+
 			<div className='pizza-block__bottom'>
 				<div className='pizza-block__price'>от {price} ₽</div>
 				<button onClick={addPizza} className='button button--outline button--add'>
