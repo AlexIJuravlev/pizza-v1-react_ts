@@ -20,6 +20,8 @@ export const Content = ({ photo, name, price, param }: PizzaContent) => {
 
 	const addPizza = () => {
 		setPizzaCount(pizzaCount + 1);
+		console.log(pizzaCount);
+		
 	};
 
 	return (
@@ -41,9 +43,9 @@ export const Content = ({ photo, name, price, param }: PizzaContent) => {
 							{option.map(({size}) => (
 								<ul>
 									<li>{size}</li>
+									
 								</ul>
-							))}
-
+							))}		
 				</div>
 			))}
 
