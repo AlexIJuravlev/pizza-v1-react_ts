@@ -1,0 +1,701 @@
+{
+	"pizza": [
+		{
+			"id": 1,
+			"name": "Мексиканская",
+			"photo": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "395 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "640 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "800 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "495 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "740 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "895 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "8 сыров",
+			"photo": "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpenphfGVufDB8fDB8fHww&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "450 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "690 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "880 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "515 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "840 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "980 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Пепперони",
+			"photo": "https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fHww&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "420 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "670 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "850 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "520 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "770 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "945 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Гавайская",
+			"photo": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?cs=srgb&dl=pexels-christopher-pluta-2147491.jpg&fm=jpg",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "410 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "655 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "830 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "510 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "755 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "925 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Маргарита",
+			"photo": "https://images.pexels.com/photos/845812/pexels-photo-845812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "370 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "590 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "750 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "470 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "690 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "845 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "Четыре сезона",
+			"photo": "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpenphfGVufDB8fDB8fHww&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "480 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "730 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "920 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "580 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "830 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "1020 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Карбонара",
+			"photo": "https://img.freepik.com/free-photo/delicious-pizza-indoors_23-2150873880.jpg",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "440 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "690 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "870 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "540 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "790 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "965 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "Дьябло",
+			"photo": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "430 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "680 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "860 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "530 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "780 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "955 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "Вегетарианская",
+			"photo": "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpenphfGVufDB8fDB8fHww&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "380 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "610 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "770 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "480 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "710 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "865 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Цезарь",
+			"photo": "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpenphfGVufDB8fDB8fHww&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "460 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "710 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "900 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "560 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "810 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "1000 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Мясная",
+			"photo": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "490 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "750 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "940 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "590 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "850 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "1040 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "Грибная",
+			"photo": "https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "390 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "625 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "790 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "490 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "725 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "885 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "Барбекю",
+			"photo": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGl6emF8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "450 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "700 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "890 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "550 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "800 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "990 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "Морская",
+			"photo": "https://img.freepik.com/free-photo/seafood-pizza-with-shrimps-squid-mussels_140725-1200.jpg",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "510 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "780 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "980 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "610 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "880 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "1080 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "Трюфельная",
+			"photo": "https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "550 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "850 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "1050 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "650 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "950 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "1150 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "Деревенская",
+			"photo": "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpenphfGVufDB8fDB8fHww&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "420 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "670 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "850 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "520 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "770 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "945 ₽"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 17,
+			"name": "Курица с ананасами",
+			"photo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+			"param": [
+				{
+					"ply": "Тонкое",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "410 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "655 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "830 ₽"
+						}
+					]
+				},
+				{
+					"ply": "Традиционное",
+					"option": [
+						{
+							"size": "26 см.",
+							"price": "510 ₽"
+						},
+						{
+							"size": "30 см.",
+							"price": "755 ₽"
+						},
+						{
+							"size": "40 см.",
+							"price": "925 ₽"
+						}
+					]
+				}
+			]
+		}
+	]
+}
